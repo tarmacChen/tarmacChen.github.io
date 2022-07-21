@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Categories on tarmacChen</title>
-    <link>https://tarmacchen.github.io/categories/</link>
-    <description>Recent content in Categories on tarmacChen</description>
+    <title>Categories on tarmacChenBlog</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on tarmacChenBlog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://tarmacchen.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>zh-tw</language><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
