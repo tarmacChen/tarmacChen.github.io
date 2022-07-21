@@ -8,7 +8,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: action/checkout@v1
+      - uses: action/checkout@v2
         with:
           submodule: true
           
