@@ -6,17 +6,17 @@ on:
     
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     steps:
-      - uses: action/checkout@v1
+      - uses: actions/checkout@v2
         with:
-          submodule: true
+          submodules: true
           
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.57.2'
-          extended: true
+          hugo-version: 'latest'
+          # extended: true
           
       - name: Build
         run: hugo --gc --minify --cleanDestinationDir
@@ -25,5 +25,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          public_brach: master
-          force_orphan: true
+          publish_branch: master
+          publish_dir: ./public
+          # force_orphan: true
