@@ -1,6 +1,6 @@
 languageCode: zh-tw
 title: tarmacChenBlog
-theme: PaperMod
+theme: themes/PaperMod
 
 params:
   env: production
