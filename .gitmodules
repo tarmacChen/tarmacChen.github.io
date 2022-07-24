@@ -1,3 +1,6 @@
 [submodule "themes/personalWeb"]
 	path = themes/personalWeb
 	url = https://github.com/bjacquemet/personal-web.git
+[submodule "themes/PaperMod"]
+	path = themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
